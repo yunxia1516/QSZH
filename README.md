@@ -10,7 +10,7 @@
 
 手机端可以下载JVDroid运行
 
-Gitee项目：[https://github.com/gaoxuyang3073/QSZH](https://gitee.com/gxy3073/qszh/blob/master/README.md)
+Gitee项目：https://gitee.com/gxy3073/qszh
 
 如有问题，可联系我的邮箱：
 
