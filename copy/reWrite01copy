@@ -42,7 +42,6 @@ public class reWrite01copy {
                 consumeDiceNumber = rcsd3[mainrolenum];
                 break;
         }
-        System.out.println(consumeDiceNumber);
 
         //循环吃掉骰子
         int[] inp = new int[consumeDiceNumber];
@@ -74,10 +73,7 @@ public class reWrite01copy {
                 consumeHPNumber = rcsh3[mainRoleNumber];
                 break;
         }
-        System.out.println(consumeHPNumber);
-        System.out.println(otherHPList[mainRoleNumber]);
         otherHPList[mainRoleNumber] -= consumeHPNumber;
-        System.out.println(Arrays.toString(otherHPList));
     return otherHPList;
     }
 }
