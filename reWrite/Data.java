@@ -3,7 +3,7 @@ package reWrite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class reWrite02 {
+public class Data {
     public static void main(String[] args) {
     }
 }
@@ -36,4 +36,8 @@ class player2 {
     int[] roleCombatSkillHurtNumber3 = {};
     //玩家资产
     List<String> dice = new ArrayList<>();
+}
+class RoundData {
+    String winningParty; //玩家一的胜负，空值则是回合还未结束
+    boolean thisRoundOffensive; //玩家一是否在下一局中扮演先手
 }
